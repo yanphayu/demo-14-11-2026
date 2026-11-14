@@ -1,0 +1,178 @@
+JavaScript – Full Course Roadmap
+Beginner → Advanced
+ Modern JavaScript (ES6+)
+
+Part 1: JavaScript Fundamentals
+No.	Lesson	Topics
+01	Introduction	What is JavaScript? History, Uses
+02	Setup	VS Code, Browser, Node.js
+03	Syntax	Statements, Comments, Semicolons
+04	Variables	var, let, const
+05	Data Types	String, Number, Boolean, Undefined, Null
+06	Type Conversion	Explicit & Implicit Conversion
+07	Operators	Arithmetic, Assignment, Comparison
+08	Logical Operators	AND, OR, NOT
+09	Strings	String Properties and Methods
+10	Numbers	Number Methods, Math Object
+11	Conditions	if, else if, else
+12	Switch	Switch Statement
+13	Ternary	Ternary Operator
+14	Loops	for, while, do...while
+15	Loop Control	break, continue
+16	Nested Loops	Loops Inside Loops
+
+Part 2: Functions
+No.	Lesson	Topics
+17	Introduction	What is a Function?
+18	Function Declaration	Declaration and Calling
+19	Parameters	Parameters and Arguments
+20	Return	Return Values
+21	Default Parameters	Default Values
+22	Function Expression	Anonymous Functions
+23	Arrow Functions	=> Syntax
+24	Scope	Global, Function, Block Scope
+25	Hoisting	Variable and Function Hoisting
+26	Callback	Callback Functions
+27	Higher-Order Functions	Functions as Arguments and Returns
+28	Recursion	Recursive Functions
+
+Part 3: Arrays
+No.	Lesson	Topics
+29	Introduction	What is an Array?
+30	Access	Index and Element Access
+31	Modify	Add, Update, Remove Elements
+32	Array Properties	length
+33	Array Methods I	push, pop, shift, unshift
+34	Array Methods II	slice, splice, concat
+35	Search	indexOf, includes, find, findIndex
+36	Iteration	for, for...of, forEach
+37	Transform	map, filter, reduce
+38	Other Methods	some, every, sort, reverse
+39	Destructuring	Array Destructuring
+40	Spread	Spread Operator
+
+Part 4: Objects
+No.	Lesson	Topics
+41	Introduction	What is an Object?
+42	Properties	Key and Value
+43	Access	Dot and Bracket Notation
+44	Modify	Add, Update, Delete
+45	Methods	Functions Inside Objects
+46	Nested Objects	Objects Inside Objects
+47	Object Methods	Object.keys, values, entries
+48	Destructuring	Object Destructuring
+49	Spread	Object Spread
+50	Optional Chaining	?.
+51	Object Shortcuts	Shorthand Properties
+
+Part 5: Modern JavaScript (ES6+)
+No.	Lesson	Topics
+52	Template Literals	Backticks and ${}
+53	let vs const	Modern Variable Declaration
+54	Arrow Functions	Modern Function Syntax
+55	Destructuring	Arrays and Objects
+56	Spread Operator	...
+57	Rest Parameters	...args
+58	Modules	import and export
+59	Optional Chaining	Safe Property Access
+60	Nullish Coalescing	??
+61	Enhanced Objects	Computed Properties
+62	Set	Unique Values
+63	Map	Key-Value Collections
+
+Part 6: DOM Manipulation
+DOCUMENT OBJECT MODEL
+No.	Lesson	Topics
+64	DOM Introduction	What is DOM?
+65	Select Elements	getElementById, querySelector
+66	Select Multiple	querySelectorAll
+67	Change Content	textContent, innerHTML
+68	Attributes	getAttribute, setAttribute
+69	CSS Manipulation	style, classList
+70	Create Elements	createElement
+71	Insert Elements	append, prepend, before, after
+72	Remove Elements	remove
+73	Traversing	parent, children, siblings
+74	DOM Collections	NodeList and HTMLCollection
+
+Part 7: Events
+No.	Lesson	Topics
+75	Event Introduction	What is an Event?
+76	Mouse Events	click, dblclick, mouseover
+77	Keyboard Events	keydown, keyup
+78	Input Events	input, change
+79	Form Events	submit, reset
+80	Event Listener	addEventListener
+81	Event Object	event, target, currentTarget
+82	Event Propagation	Bubbling and Capturing
+83	Event Control	preventDefault, stopPropagation
+84	Event Delegation	Parent Event Handling
+
+Part 8: Forms and Validation
+No.	Lesson	Topics
+85	Form Elements	Input, Select, Textarea
+86	Get Values	value and checked
+87	Form Validation	Required, Length, Pattern
+88	Custom Validation	JavaScript Validation
+89	Regular Expressions	RegExp, test, match
+90	Form Submission	Submit Events
+
+Part 9: Advanced JavaScript
+No.	Lesson	Topics
+91	Execution Context	How JavaScript Executes
+92	Call Stack	Function Execution
+93	Lexical Environment	Scope Chain
+94	Closures	Functions Remembering Scope
+95	this Keyword	Understanding this
+96	Constructor Functions	Object Creation
+97	Classes	class Syntax
+98	Constructors	constructor()
+99	Inheritance	extends, super
+100	Encapsulation	Private Fields
+101	Getters & Setters	get and set
+102	Static	Static Properties and Methods
+103	Prototypes	Prototype Chain
+104	Error Handling	try, catch, finally, throw
+
+Part 10: Asynchronous JavaScript
+No.	Lesson	Topics
+105	Introduction	Synchronous vs Asynchronous
+106	setTimeout	Delayed Execution
+107	setInterval	Repeated Execution
+108	Callback	Asynchronous Callbacks
+109	Promise	Promise Introduction
+110	Promise States	Pending, Fulfilled, Rejected
+111	Promise Methods	then, catch, finally
+112	Promise Chaining	Chaining Promises
+113	Async & Await	Modern Asynchronous Syntax
+114	Error Handling	Async try/catch
+115	Event Loop	Microtasks and Macrotasks
+
+Part 11: Browser APIs and Data
+No.	Lesson	Topics
+116	JSON	parse, stringify
+117	Fetch API	HTTP Requests
+118	GET Request	Retrieve Data
+119	POST Request	Send Data
+120	PUT / PATCH	Update Data
+121	DELETE	Delete Data
+122	HTTP Status	Status Codes
+123	Local Storage	localStorage
+124	Session Storage	sessionStorage
+125	Cookies	Browser Cookies
+126	URL API	URL and URLSearchParams
+127	History API	Browser Navigation
+128	FormData	Sending Form Data
+
+Part 12: Professional JavaScript
+No.	Lesson	Topics
+129	npm	Node Package Manager
+130	Node.js	JavaScript Outside Browser
+131	ES Modules	Module Systems
+132	Debugging	Browser DevTools
+133	Strict Mode	"use strict"
+134	Memory	Garbage Collection
+135	Performance	Optimization
+136	Security	XSS and Safe DOM
+137	Testing	Unit Testing Basics
+138	Clean Code	Best Practices

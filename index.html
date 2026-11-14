@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Hide Navbar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f1f1;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            padding: 0 30px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            background: #222;
+            color: white;
+            z-index: 1000;
+
+            transform: translateY(0);
+            transition: transform 0.1s linear;
+            will-change: transform;
+        }
+
+        nav.hide {
+            transform: translateY(-100%);
+        }
+
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 100px 30px;
+            min-height: 300vh;
+        }
+
+        section {
+            height: 500px;
+            padding: 30px;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h2>My Website</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Home</h1>
+            <p>Scroll down to hide navbar.</p>
+        </section>
+
+        <section>
+            <h1>About</h1>
+        </section>
+
+        <section>
+            <h1>Services</h1>
+        </section>
+
+        <section>
+            <h1>Contact</h1>
+        </section>
+    </main>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+
+        let lastScroll = window.scrollY;
+
+        window.addEventListener('scroll', () => {
+
+            const currentScroll = window.scrollY;
+
+            if (currentScroll <= 0) {
+                navbar.classList.remove('hide');
+            }
+            else {
+                navbar.classList.toggle(
+                    'hide',
+                    currentScroll > lastScroll
+                );
+            }
+
+            lastScroll = currentScroll;
+
+        }, { passive: true });
+    </script>
+
+</body>
+</html>
